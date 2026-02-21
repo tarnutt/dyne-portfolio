@@ -78,7 +78,9 @@ const { t } = usePortfolio()
             </span>
           </NuxtLink>
 
-          <button
+          <a
+            href="/Tanutcha_Resume.pdf"
+            download="Tanutcha_Resume.pdf"
             class="group flex w-full items-center justify-center gap-3 rounded-2xl border border-white/10 bg-[#020617]/50 px-8 py-4 font-semibold text-white shadow-[0_0_20px_rgba(0,0,0,0.5)] backdrop-blur-xl transition-all duration-300 hover:border-cyan-400/50 hover:bg-cyan-500/10 sm:w-auto"
           >
             {{ t.hero.btnResume }}
@@ -87,7 +89,7 @@ const { t } = usePortfolio()
               size="18"
               class="text-cyan-400 transition-transform group-hover:translate-y-1"
             />
-          </button>
+          </a>
         </div>
       </div>
 
