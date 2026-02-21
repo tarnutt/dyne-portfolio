@@ -1,5 +1,7 @@
 <template>
-  <main class="relative z-10 mx-auto h-[200vh] max-w-6xl px-6 pt-32">
-    <h1 class="mt-10 text-4xl font-bold text-white">หน้าเว็บกำลังโหลด...</h1>
+  <main
+    class="relative z-10 mx-auto max-w-7xl space-y-32 px-6 pb-24 pt-32 md:space-y-40"
+  >
+    <SectionHero />
   </main>
 </template>
