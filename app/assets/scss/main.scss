@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// ตั้งค่าพื้นฐานให้ Body
+body {
+  font-family: 'Prompt', sans-serif;
+  @apply overflow-x-hidden bg-[#020617] text-slate-300 selection:bg-cyan-500/30;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 10px;
+  &:hover {
+    background: #22d3ee;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-30px) rotate(5deg);
+  }
+}
+.animate-float {
+  animation: float 8s ease-in-out infinite;
+}
+.animate-float-delayed {
+  animation: float 10s ease-in-out infinite alternate 2s;
+}
