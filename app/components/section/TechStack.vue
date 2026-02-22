@@ -6,7 +6,7 @@ const { t } = usePortfolio()
   <section id="tech" class="relative z-20 scroll-mt-32">
     <div class="mb-14 text-center md:text-left">
       <h2
-        class="mb-3 bg-gradient-to-r from-white to-slate-400 bg-clip-text text-4xl font-black tracking-tight text-transparent drop-shadow-lg md:text-5xl"
+        class="mb-3 bg-gradient-to-r from-white to-slate-400 bg-clip-text text-4xl font-extrabold tracking-tight text-transparent drop-shadow-lg md:text-5xl"
       >
         {{ t.tech.title }}
       </h2>
@@ -106,6 +106,11 @@ const { t } = usePortfolio()
           >
             Python
           </span>
+          <span
+            class="rounded-xl border border-white/[0.08] bg-[#0f172a] px-5 py-2.5 text-sm font-semibold text-purple-400"
+          >
+            RESTful API Design
+          </span>
         </div>
       </UiSpotlightCard>
 
@@ -142,10 +147,6 @@ const { t } = usePortfolio()
           <span
             class="rounded-xl border border-white/[0.1] bg-[#0f172a]/80 px-5 py-2.5 text-sm font-semibold text-slate-200"
             >Messaging API</span
-          >
-          <span
-            class="rounded-xl border border-white/[0.1] bg-[#0f172a]/80 px-5 py-2.5 text-sm font-semibold text-slate-200"
-            >RESTful API Design</span
           >
         </div>
       </UiSpotlightCard>

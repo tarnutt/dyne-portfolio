@@ -4,5 +4,6 @@
   >
     <SectionHero />
     <SectionTechStack />
+    <SectionExperience />
   </main>
 </template>
