@@ -1,5 +1,5 @@
 export const usePortfolio = () => {
-  const lang = useState<'th' | 'en'>('lang', () => 'th')
+  const lang = useState<'th' | 'en'>('lang', () => 'en')
 
   const toggleLang = () => {
     lang.value = lang.value === 'th' ? 'en' : 'th'
@@ -128,8 +128,8 @@ export const usePortfolio = () => {
       },
       contact: {
         title: 'ช่องทางการติดต่อ',
-        desc: 'ฉันเป็นนักพัฒนาที่เชื่อในการทำงานเป็นทีม การทำ Code Review และการใช้ Agile เพื่อผลักดันโปรดักส์ หากสนใจร่วมงานกัน ติดต่อฉันได้เลยค่ะ',
-        location: 'นครราชสีมา, ประเทศไทย (รับงาน Remote)',
+        desc: 'หากคุณมองหานักพัฒนาที่ไม่ใช่แค่เขียนโค้ดตามสั่ง แต่เป็นผู้นำที่กล้าเสนอโซลูชันเพื่อโปรดักต์ และแก้ปัญหาเฉพาะหน้าได้อย่างเฉียบขาด...ติดต่อฉันได้เลยค่ะ',
+        location: 'นครราชสีมา, ประเทศไทย | 💻 ยินดีรับงาน Remote และ Hybrid',
         edu: 'วท.บ. สารสนเทศสถิติ, มหาวิทยาลัยขอนแก่น (GPA 3.30)',
         callMe: 'เบอร์โทรศัพท์',
         emailMe: 'อีเมล'
@@ -258,8 +258,8 @@ export const usePortfolio = () => {
       },
       contact: {
         title: "Let's connect.",
-        desc: 'I am a developer who strongly believes in teamwork, code reviews, and Agile methodologies to drive product success. If you are interested in working together, feel free to reach out.',
-        location: 'Nakhon Ratchasima, Thailand (Remote Available)',
+        desc: "If you need a developer who goes beyond following orders—bringing leadership, proactive solutions, and sharp crisis management... let's talk.",
+        location: 'Nakhon Ratchasima, Thailand | 💻 Open to Remote & Hybrid',
         edu: 'B.S. Statistical Information, KKU (GPA 3.30)',
         callMe: 'Call Me',
         emailMe: 'Email Me'

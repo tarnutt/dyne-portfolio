@@ -5,5 +5,7 @@
     <SectionHero />
     <SectionTechStack />
     <SectionExperience />
+
+    <SectionContact />
   </main>
 </template>

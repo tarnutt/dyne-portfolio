@@ -98,12 +98,14 @@ const closeMenu = () => {
             Get in touch
           </p>
           <div class="flex gap-4">
-            <a href="#" class="text-slate-400 hover:text-cyan-400"
+            <a
+              href="https://github.com/tarnutt"
+              class="text-slate-400 hover:text-cyan-400"
               ><Icon name="lucide:github" size="20"
             /></a>
-            <a href="#" class="text-slate-400 hover:text-cyan-400"
+            <!-- <a href="#" class="text-slate-400 hover:text-cyan-400"
               ><Icon name="lucide:linkedin" size="20"
-            /></a>
+            /></a> -->
           </div>
         </div>
       </div>
